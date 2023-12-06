@@ -1,5 +1,17 @@
-# First django project
+# Проект сайта-блога на Python Django
+В проекте использованы страницы:
+1. Главная
+2. Мои цели
+3. Контакты
+4. Обратная связь
 
-## Install
+*Для стиля используеися css.*
 
-## Run
+## Запуск проекта
+1. Склонировать репозиторий: *git clone*
+2. Перейти в папку SUTD_blog: *cd SUTD_blog*
+3. Создать вируальной окружение: *python -m venv venv*
+4. Запустить виртуальное окружение: *.\venv\bin\activate.bat*
+5. Установить все пакеты и зависимости: *pip install -r requirements.txt*
+6. Запустить сервер с сайтом: *python manage.py runserver*
+
