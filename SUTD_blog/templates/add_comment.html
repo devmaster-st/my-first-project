@@ -5,14 +5,14 @@
 <form action="{% url 'thanks_page' %}" method="POST">
     {% csrf_token %}
     <label for="user_first_name"></label>
-    <input name="user_first_name" id="user_first_name">
+    <input name="user_first_name" id="user_first_name" placeholder="first name">
     <label for="user_last_name"></label>
-    <input name="user_last_name" id="user_last_name">
+    <input name="user_last_name" id="user_last_name" placeholder="last name">
     <label for="email"></label>
-    <input name="email" id="email">
+    <input name="email" id="email" placeholder="email">
     <label for="feedback_frame"></label>
-    <input name="feedback_frame" id="feedback_frame">
-    <button type="button">Отправить отзыв</button>
+    <input name="feedback_frame" id="feedback_frame" placeholder="feedback message">
+    <button type="submit">Отправить отзыв</button>
 </form>
 
 {% endblock %}
